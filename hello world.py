@@ -1,6 +1,11 @@
-#this is first command
+# args
 
-Game = "Ice Man"
-PlayDatetime = "2019-07-11"
-comment =  f"game name is {Game} , Play date time is {PlayDatetime}"
-print ( comment )
+def add(*dateRage):
+    print(*dateRage)
+    result = 0
+    for item in dateRage:
+        result += item
+    return result
+
+
+print(add(1, 2, 3))
