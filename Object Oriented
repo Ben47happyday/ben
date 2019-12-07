@@ -1,0 +1,56 @@
+# Define an Class object
+
+#first first Argument must be self
+class People:
+
+    def __init__(self,Name,Age):
+        self.Name = Name
+        self.Age = Age
+        #protect variable
+        self._protect_var = 10
+        #private variable
+        self.__private_var = 10
+    @property
+    def name (self):
+        return self.Name.upper()
+
+    @property
+    def p_age(self):
+        return self.Age
+
+    @property
+    def legal_status (self):
+        if self.Age >= 18 and self.Age < 60:
+            return "Audlt reponsibility"
+        elif self.Age >= 60:
+            return "Senior"
+        else:
+            return "under 18 , still is an child"
+
+    @name.setter
+    def setter_name(self, x):
+        self.Name = x
+
+    def say_hi (self):
+        print ( f"Hi My Name is {self.Name}, and I'm {self.Age} old")
+
+    def show_private_var_value (self):
+        print ( f"Private Variable Practice Result {self.__private_var}")
+
+    def show_protect_var_value (self):
+        print ( f"Projected variable is {self._protect_var}")
+
+
+# Class instance
+someone = People (Name='Benjamin', Age = 12)
+print (someone.Name)
+print (someone.Age)
+print (someone.say_hi())
+someone._protect_var = 20
+someone.show_private_var_value()
+
+someone.setter_name = 'Andrew'
+someone.Age = 66
+
+print (f"{someone.name}'s legal reponsiblity is {someone.legal_status} , age is {someone.p_age} " )
+
