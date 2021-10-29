@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T23:44:11.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.6.2" etag="G-gkv30qqamAmrtYMNxP" type="github"><diagram id="-kSh2rh-pU-vfg5HJiZd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-29T01:21:19.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="6Ys-AIEwS-AXcn4rSm24" version="15.6.2" type="github">
+  <diagram id="-kSh2rh-pU-vfg5HJiZd" name="Page-1">
+    <mxGraphModel dx="1182" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6S5P8p79EY-okwven3ZS-6" value="Logic App" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6S5P8p79EY-okwven3ZS-1" target="6S5P8p79EY-okwven3ZS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-servers-web-hosting/50/sftp-128.png" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-3" value="Flat Files" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6S5P8p79EY-okwven3ZS-2" target="6S5P8p79EY-okwven3ZS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-2" value="Client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="78" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-8" value="Azure Fuc (Python)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6S5P8p79EY-okwven3ZS-5" target="6S5P8p79EY-okwven3ZS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-14" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="300" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-5" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="244" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6S5P8p79EY-okwven3ZS-7" target="6S5P8p79EY-okwven3ZS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-7" value="Staging" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="410" y="240.56" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpSize=8;strokeWidth=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;spacingTop=1;fontSize=13;" edge="1" parent="1" source="6S5P8p79EY-okwven3ZS-5" target="6S5P8p79EY-okwven3ZS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6S5P8p79EY-okwven3ZS-9" target="6S5P8p79EY-okwven3ZS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-9" value="Target (Temp DB Daily Truncation)" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="570" y="244.56" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6S5P8p79EY-okwven3ZS-12" target="6S5P8p79EY-okwven3ZS-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="116" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6S5P8p79EY-okwven3ZS-12" target="6S5P8p79EY-okwven3ZS-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="274" />
+              <mxPoint x="890" y="274" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6S5P8p79EY-okwven3ZS-12" target="6S5P8p79EY-okwven3ZS-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=8;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=1;" edge="1" parent="1" source="6S5P8p79EY-okwven3ZS-9" target="6S5P8p79EY-okwven3ZS-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="275" />
+              <mxPoint x="640" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-12" value="Analysis Serverice" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/analytics/Analysis_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="730" y="240" width="90" height="68.56" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-16" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.nsx_dashboard;" vertex="1" parent="1">
+          <mxGeometry x="920" y="70" width="98.49" height="91.6" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-17" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.nsx_dashboard;" vertex="1" parent="1">
+          <mxGeometry x="920" y="350" width="98.49" height="91.6" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-18" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.nsx_dashboard;" vertex="1" parent="1">
+          <mxGeometry x="920" y="212.39999999999998" width="98.49" height="91.6" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-22" value="SQL&amp;nbsp; Server" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="131.6" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6S5P8p79EY-okwven3ZS-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/freebies-2/24/warehouse-storage-3-128.png;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="461" y="422" width="128" height="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
