@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T01:25:40.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="15.7.3" etag="T0BaHQk9zcEhiris7Von" type="github"><diagram id="sqKomhvCMvpB2JhLXuNg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-08T01:43:19.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="qj0mCoTSXjtyjunpTNQy" version="15.7.3" type="github">
+  <diagram id="sqKomhvCMvpB2JhLXuNg" name="Page-1">
+    <mxGraphModel dx="2302" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="19OGjWhp_tHzXocg0BvG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-1" target="19OGjWhp_tHzXocg0BvG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-1" value="JB Tenant (UAT)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="150" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-2" value="Vnet Insights Tenant (Prod)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-4" value="Deploy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-3" target="19OGjWhp_tHzXocg0BvG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-3" value="Local PowerBI File" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-2" target="19OGjWhp_tHzXocg0BvG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-11" target="19OGjWhp_tHzXocg0BvG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-11" value="Vendor Users" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-13" target="19OGjWhp_tHzXocg0BvG-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="240" />
+              <mxPoint x="220" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-13" target="19OGjWhp_tHzXocg0BvG-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="240" />
+              <mxPoint x="220" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-13" value="Vendor Model Cube" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_cube;fillColor=#2072B8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-17" target="19OGjWhp_tHzXocg0BvG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-17" value="JB Users" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Two_User_Icon.svg;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
