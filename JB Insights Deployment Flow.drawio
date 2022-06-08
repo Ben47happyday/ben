@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T01:53:28.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="XytthP-mn5GhRcYylTPr" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T12:03:35.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="luKDvkMo9X1OiHhqpY85" version="15.7.3" type="github">
   <diagram id="sqKomhvCMvpB2JhLXuNg" name="Page-1">
-    <mxGraphModel dx="2708" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,11 +9,6 @@
         </mxCell>
         <mxCell id="19OGjWhp_tHzXocg0BvG-1" value="JB Tenant Workspace (UAT)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="1">
           <mxGeometry x="317.5" y="150" width="172.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="19OGjWhp_tHzXocg0BvG-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-2" target="19OGjWhp_tHzXocg0BvG-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="409.99999999999955" y="392" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="19OGjWhp_tHzXocg0BvG-2" value="Vnet Insights Tenant Workspace&lt;br&gt;&amp;nbsp;(Prod)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
           <mxGeometry x="310" y="280" width="200" height="60" as="geometry" />
@@ -25,6 +20,9 @@
           <mxGeometry x="350" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="19OGjWhp_tHzXocg0BvG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-2" target="19OGjWhp_tHzXocg0BvG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-11" target="19OGjWhp_tHzXocg0BvG-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="19OGjWhp_tHzXocg0BvG-11" value="Vendor Users" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="1">
