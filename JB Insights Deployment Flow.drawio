@@ -1,16 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T01:43:19.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="qj0mCoTSXjtyjunpTNQy" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T01:51:06.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="f6sDFcK1x0sWRn8sisSx" version="15.7.3" type="github">
   <diagram id="sqKomhvCMvpB2JhLXuNg" name="Page-1">
-    <mxGraphModel dx="2302" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2708" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="19OGjWhp_tHzXocg0BvG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-1" target="19OGjWhp_tHzXocg0BvG-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="19OGjWhp_tHzXocg0BvG-1" value="JB Tenant (UAT)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="317.5" y="150" width="185" height="60" as="geometry" />
+        <mxCell id="19OGjWhp_tHzXocg0BvG-1" value="JB Tenant Workspace (UAT)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="150" width="172.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="19OGjWhp_tHzXocg0BvG-2" value="Vnet Insights Tenant (Prod)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="19OGjWhp_tHzXocg0BvG-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-2" target="19OGjWhp_tHzXocg0BvG-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409.99999999999955" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-2" value="Vnet Insights Tenant Workspace&lt;br&gt;&amp;nbsp;(Prod)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
           <mxGeometry x="310" y="280" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="19OGjWhp_tHzXocg0BvG-4" value="Deploy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-3" target="19OGjWhp_tHzXocg0BvG-1">
@@ -22,11 +27,8 @@
         <mxCell id="19OGjWhp_tHzXocg0BvG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-2" target="19OGjWhp_tHzXocg0BvG-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="19OGjWhp_tHzXocg0BvG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-11" target="19OGjWhp_tHzXocg0BvG-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="19OGjWhp_tHzXocg0BvG-11" value="Vendor Users" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="1">
-          <mxGeometry x="370" y="420" width="80" height="60" as="geometry" />
+          <mxGeometry x="640" y="280" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="19OGjWhp_tHzXocg0BvG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-13" target="19OGjWhp_tHzXocg0BvG-1">
           <mxGeometry relative="1" as="geometry">
@@ -47,11 +49,58 @@
         <mxCell id="19OGjWhp_tHzXocg0BvG-13" value="Vendor Model Cube" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_cube;fillColor=#2072B8;" vertex="1" parent="1">
           <mxGeometry x="60" y="200" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="19OGjWhp_tHzXocg0BvG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-17" target="19OGjWhp_tHzXocg0BvG-1">
+        <mxCell id="19OGjWhp_tHzXocg0BvG-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-17" target="19OGjWhp_tHzXocg0BvG-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="19OGjWhp_tHzXocg0BvG-17" value="JB Users" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Two_User_Icon.svg;" vertex="1" parent="1">
-          <mxGeometry x="600" y="150" width="60" height="60" as="geometry" />
+          <mxGeometry x="650" y="150" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-23" value="Deploy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-24" target="19OGjWhp_tHzXocg0BvG-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-24" value="Local PowerBI File" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="930" as="sourcePoint" />
+            <mxPoint x="450" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="870" />
+            </Array>
+            <mxPoint x="320" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-30" value="Tabular Model" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_cube;fillColor=#2072B8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19OGjWhp_tHzXocg0BvG-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-32" value="JB Users" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Two_User_Icon.svg;" vertex="1" parent="1">
+          <mxGeometry x="650" y="820" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-35" value="JB Tenant" style="swimlane;fillColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="320" y="790" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="19OGjWhp_tHzXocg0BvG-35" target="19OGjWhp_tHzXocg0BvG-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-36" value="UAT Workspaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19OGjWhp_tHzXocg0BvG-35">
+          <mxGeometry x="40" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="19OGjWhp_tHzXocg0BvG-37" value="Prod Workspaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="19OGjWhp_tHzXocg0BvG-35">
+          <mxGeometry x="40" y="120" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
