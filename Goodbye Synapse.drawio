@@ -1,9 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T05:48:17.966Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="ESN3-uYPmQuN1S5kbpPt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T06:28:51.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nW26hn1X19_OyVXyPzC4" version="21.6.6" type="github">
   <diagram name="Page-1" id="s0Gr75-eTqIMofu0YI3p">
-    <mxGraphModel>
+    <mxGraphModel dx="1969" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-3" value="Export&amp;nbsp; Schema" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqZKLZy-RuQu42KUIk7V-1" target="WqZKLZy-RuQu42KUIk7V-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-12" value="Migrate Data&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="WqZKLZy-RuQu42KUIk7V-1" target="WqZKLZy-RuQu42KUIk7V-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-1" value="Synapse" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Synapse_Analytics.svg;" vertex="1" parent="1">
+          <mxGeometry x="70" y="311" width="80" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqZKLZy-RuQu42KUIk7V-2" target="WqZKLZy-RuQu42KUIk7V-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-2" value="Visual Studio DB project" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-7/512/visual_studio-128.png" vertex="1" parent="1">
+          <mxGeometry x="290" y="305" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-7" value="Deploy Schema into Hyper Scale SQL DB" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WqZKLZy-RuQu42KUIk7V-8" target="WqZKLZy-RuQu42KUIk7V-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="389" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-17" value="Redirect connection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WqZKLZy-RuQu42KUIk7V-16" target="WqZKLZy-RuQu42KUIk7V-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-6" value="Hyper Scale SQL DB&lt;br&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database;" vertex="1" parent="1">
+          <mxGeometry x="920" y="314.5" width="70" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-8" value="Transform Synapse DDL to Standard DDL" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Dev_Console.svg;" vertex="1" parent="1">
+          <mxGeometry x="540" y="319" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;" edge="1" parent="1" source="WqZKLZy-RuQu42KUIk7V-11" target="WqZKLZy-RuQu42KUIk7V-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-11" value="Data Factory" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="500" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WqZKLZy-RuQu42KUIk7V-14" target="WqZKLZy-RuQu42KUIk7V-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-14" value="ADD Index" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.global_secondary_index;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="915.25" y="517" width="67.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="WqZKLZy-RuQu42KUIk7V-16" value="Azure Analysis Service" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Analysis_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="298.5" width="158.81" height="121" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
