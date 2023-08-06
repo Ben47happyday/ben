@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T01:14:23.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="B1SMbUpKkSXdF-BJBXn6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-06T23:17:07.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nLM39E_v9F2glOaIQQKv" version="21.6.6" type="github">
   <diagram name="Page-1" id="gXx5EvnO0RkmIl6rwmWh">
-    <mxGraphModel>
+    <mxGraphModel dx="2315" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JymnP4p16ahBH98CwgUP-3" value="Move Files" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JymnP4p16ahBH98CwgUP-1" target="JymnP4p16ahBH98CwgUP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-servers-web-hosting/50/sftp-128.png" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-5" value="Move Files" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JymnP4p16ahBH98CwgUP-2" target="JymnP4p16ahBH98CwgUP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-2" value="Logic APP" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/internet_of_things/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="76" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-7" value="Data Transform" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JymnP4p16ahBH98CwgUP-4" target="JymnP4p16ahBH98CwgUP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-4" value="Blob Storage" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Blob_Block.svg;" vertex="1" parent="1">
+          <mxGeometry x="440" y="84" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-9" value="Output" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JymnP4p16ahBH98CwgUP-6" target="JymnP4p16ahBH98CwgUP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-6" value="Azure Function (Python)" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="570" y="200" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-14" value="Process data into DB" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JymnP4p16ahBH98CwgUP-8" target="JymnP4p16ahBH98CwgUP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-8" value="Blob Storage" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Blob_Block.svg;" vertex="1" parent="1">
+          <mxGeometry x="180" y="204" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-19" value="Process Data by &lt;b&gt;SQL Query (Views)&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JymnP4p16ahBH98CwgUP-13" target="JymnP4p16ahBH98CwgUP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-13" value="" style="swimlane;whiteSpace=wrap;html=1;startSize=130;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="390" width="710" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-12" value="Azure SQL DB (&lt;b&gt;JB HiFi AU/ NZ&lt;/b&gt; and &lt;b&gt;Hisense&lt;/b&gt;&amp;nbsp; )&lt;br&gt;Database Type: Row Store Index and regular SQL DB&lt;br&gt;Language: TSQL" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database;" vertex="1" parent="JymnP4p16ahBH98CwgUP-13">
+          <mxGeometry x="120" y="140" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-10" value="Data Factory" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="JymnP4p16ahBH98CwgUP-13">
+          <mxGeometry x="315" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-16" value="Synapse DB (&lt;b&gt;Microsoft&lt;/b&gt;)&lt;br&gt;Database Type: Column Store Index and Distributed Computing&lt;br&gt;Language: Stardard SQL" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Synapse_Analytics.svg;" vertex="1" parent="JymnP4p16ahBH98CwgUP-13">
+          <mxGeometry x="500" y="141" width="60" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="JymnP4p16ahBH98CwgUP-13" source="JymnP4p16ahBH98CwgUP-13" target="JymnP4p16ahBH98CwgUP-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="60" as="sourcePoint" />
+            <mxPoint x="590" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-21" value="Direct Query" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JymnP4p16ahBH98CwgUP-18" target="JymnP4p16ahBH98CwgUP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-18" value="Azure Analysis Server (Tabular Model)&lt;br&gt;&lt;br&gt;Measures build by &lt;b&gt;DAX (Data Analysis Expression)&lt;/b&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Analysis_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="153.43" y="851" width="118.13" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JymnP4p16ahBH98CwgUP-20" value="PowerBI&amp;nbsp;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Dashboard_Hub.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="824.5" width="187" height="143" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
