@@ -1,9 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T03:17:52.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="pGZz6vWyZeGNnSZfs0jT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T04:40:30.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="CXMB2odzrXP3ri63ypgQ" version="21.6.6" type="github">
   <diagram name="Page-1" id="j8XDTk1O6crs8ro1E1MK">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="67bRHwtYdP7saROfKDs8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-4" target="67bRHwtYdP7saROfKDs8-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="323.70000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-4" value="Support Ticket" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.tasks;" vertex="1" parent="1">
+          <mxGeometry x="50" y="282" width="70.8" height="90.8" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-9" value="Create ADO Ticket" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-7" target="67bRHwtYdP7saROfKDs8-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="289" y="512" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-11" value="Create Zendesk Ticket" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-7" target="67bRHwtYdP7saROfKDs8-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="289" y="220" />
+              <mxPoint x="520" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-7" value="Support Team" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.support;" vertex="1" parent="1">
+          <mxGeometry x="250" y="288.4" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-39" value="Internal Comments" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.462;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-8" target="67bRHwtYdP7saROfKDs8-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-8" value="Azure Devop" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Azure_DevOps.svg;" vertex="1" parent="1">
+          <mxGeometry x="393" y="480" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-25" target="67bRHwtYdP7saROfKDs8-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-25" value="Zendesk" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="510" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-16" value="Ticket Type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="67bRHwtYdP7saROfKDs8-25">
+          <mxGeometry x="65" y="70" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-27" value="Response" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.messages;" vertex="1" parent="67bRHwtYdP7saROfKDs8-25">
+          <mxGeometry x="300" y="80" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-26" value="External Users" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="181" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-31" target="67bRHwtYdP7saROfKDs8-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-31" value="Insights Team" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.people_places_things_icons.icon9;" vertex="1" parent="1">
+          <mxGeometry x="605" y="485" width="70" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-14" target="67bRHwtYdP7saROfKDs8-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-14" value="Microsoft Account Manager" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.people_places_things_icons.icon8;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-60" width="24.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Non-Microsoft Tickets&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-16" target="67bRHwtYdP7saROfKDs8-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="420" />
+              <mxPoint x="640" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Microsoft Tickets&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-16" target="67bRHwtYdP7saROfKDs8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-45" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-41" target="67bRHwtYdP7saROfKDs8-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-47" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;NO&amp;nbsp;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-41" target="67bRHwtYdP7saROfKDs8-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="410" />
+              <mxPoint x="850" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-41" value="Is JB Enhance Tickets" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="465" width="100" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67bRHwtYdP7saROfKDs8-44" target="67bRHwtYdP7saROfKDs8-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67bRHwtYdP7saROfKDs8-44" value="JB Account Manager" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.people_places_things_icons.icon8;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="487.5" width="24.75" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
